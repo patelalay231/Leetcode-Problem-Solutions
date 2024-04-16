@@ -64,7 +64,7 @@ public:
     }
     void updatefreqlistmap(Node *node)
     {
-        keynode.erase(node->key);
+        // keynode.erase(node->key);
         freqlistmap[node->cnt]->removenode(node);
         if(node->cnt==minfreq and freqlistmap[node->cnt]->size==0)
         {
@@ -78,7 +78,7 @@ public:
         node->cnt+=1;
         nexthigherfreqlist->addfront(node);
         freqlistmap[node->cnt]=nexthigherfreqlist;
-        keynode[node->key]=node;
+        // keynode[node->key]=node;
     }
     
     int get(int key) 
