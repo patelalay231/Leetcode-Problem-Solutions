@@ -4,17 +4,12 @@ public:
         int maxLen = 0;
         int n = s.length();
         int i = 0, j = 0;
-        unordered_map<char, int> mp;
+        vector<int> ele(256,-1);
         while (j < n) {
-            if (mp.find(s[j]) != mp.end()) {
-                while (i < j && s[i] != s[j]) {
-                    mp.erase(s[i]);
-                    i++;
-                }
-                mp.erase(s[i]);
-                i++;
+            if (ele[s[j]] != -1) {
+                i = max(i,ele[s[j]] + 1);
             }
-            mp[s[j]] = 1;
+            ele[s[j]] = j;
             maxLen = max(maxLen, j - i + 1);
             j++;
         }
