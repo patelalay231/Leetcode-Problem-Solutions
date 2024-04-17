@@ -10,11 +10,8 @@ public:
             if (arr[right] == 0)
                 zeros++;
             if (zeros > k) {
-                while (arr[left] != 0) {
-                    left++;
-                }
-                zeros--;
-                left++;
+               if(arr[left] == 0) zeros--;
+               left++;
             }
             maxSum = max(maxSum, right - left + 1);
             right++;
