@@ -11,12 +11,6 @@ Consistency is the key to success. Each day, I strive to solve at least one Leet
 
 ## Getting Started
 
-To explore the solutions:
-
-1. Browse through the folders categorized by problem difficulty.
-2. Each problem solution is provided in a separate folder named after the problem number.
-3. Solutions are implemented in various programming languages including Python, Java, and C++.
-4. Feel free to explore, learn, and provide feedback or suggestions for improvements.
 
 ## Contributing
 
