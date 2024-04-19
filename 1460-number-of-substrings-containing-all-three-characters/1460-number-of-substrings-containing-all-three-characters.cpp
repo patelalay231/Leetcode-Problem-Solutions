@@ -1,23 +1,15 @@
 class Solution {
 public:
-    int solve(string s,int k){
-        int n = s.length();
-        int subs = 0;
-        int l = 0,r = 0;
-        unordered_map<char,int> mp;
-        while(r < n){
-            mp[s[r]]++;
-            while(mp.size() > k){
-                mp[s[l]]--;
-                if(mp[s[l]] == 0) mp.erase(s[l]);
-                l++;
-            }
-            if(mp.size() <= k) subs += r - l + 1;
-            r++;
-        }
-        return subs;
-    }
     int numberOfSubstrings(string s) {
-        return solve(s,3) - solve(s,2);
+        int n = s.length();
+        vector<int> idx(3,-1);
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            idx[s[i] - 'a'] = i;
+            if(idx[0] != -1 && idx[1] != -1 && idx[2] != -1){
+                cnt += 1+ min(min(idx[0],idx[1]),idx[2]);
+            }
+        }
+        return cnt++;
     }
 };
