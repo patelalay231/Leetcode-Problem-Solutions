@@ -4,12 +4,16 @@ public:
         int n = nums.size();
         int l = 0, r = 0;
         int cnt = 0;
-        unordered_map<int,int> mp;
+        vector<int> mp(n+1,0);
+        int diff = 0;
         while (r < n) {
+            if(mp[nums[r]] == 0){
+                diff++;
+            }
             mp[nums[r]]++;
-            while (mp.size() > k) {
+            while (diff > k) {
                 mp[nums[l]]--;
-                if (mp[nums[l]] == 0) mp.erase(nums[l]);
+                if (mp[nums[l]] == 0) diff--;
                 l++;
             }
             cnt += (r - l + 1);
