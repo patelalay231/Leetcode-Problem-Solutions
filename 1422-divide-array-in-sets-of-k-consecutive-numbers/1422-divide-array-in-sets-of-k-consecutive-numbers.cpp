@@ -2,15 +2,15 @@ class Solution {
 public:
     bool isPossibleDivide(vector<int>& hand, int groupSize) {
         unordered_map<int, int> mp;
-        for (auto it : hand) {
-            mp[it]++;
-        }
         int n = hand.size();
         if (n % groupSize != 0)
             return false;
         priority_queue<int, vector<int>, greater<int>> pq;
-        for (auto it : mp) {
-            pq.push(it.first);
+        for (auto it : hand) {
+            mp[it]++;
+            if(mp[it] == 1){
+                pq.push(it);
+            }
         }
         while (!pq.empty()) {
             int ele = pq.top();
