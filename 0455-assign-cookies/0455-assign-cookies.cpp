@@ -4,18 +4,17 @@ public:
         // if(g.size() == 0 || s.size() == 0){
         //     return 0;
         // }
-        sort(g.begin(),g.end());
-        sort(s.begin(),s.end());
+        sort(g.rbegin(),g.rend());
+        sort(s.rbegin(),s.rend());
         int assign = 0;
         int j = 0;
-        int n = min(s.size(),g.size());
+        int n = g.size();
+        int m = s.size();
         for(int i=0;i<n;i++){
-            while(j<s.size() && s[j] < g[i]){
+            if(j<m && g[i] <= s[j]){
                 j++;
+                assign++;
             }
-            if(j == s.size()) break;
-            assign++;
-            j++;
         }
         return assign;
     }
