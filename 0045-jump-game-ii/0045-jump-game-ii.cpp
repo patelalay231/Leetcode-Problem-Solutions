@@ -2,15 +2,20 @@ class Solution {
 public:
     int jump(vector<int>& nums) {
         int n = nums.size();
-        vector<int> miniJump(n, n);
-        miniJump[n - 1] = 0;
-        for (int i = n - 2; i >= 0; i--) {
-            int mini = INT_MAX;
-            for (int j = 0; j <= nums[i] && j+i<n; j++) {
-                mini = min(mini, miniJump[i + j] + 1);
+        int farthestJump = 0;
+        int jump = 0;
+        int lastJump = 0;
+        if(n ==1 ) return 0;
+        for (int i = 0; i < n; i++) {
+            farthestJump = max(farthestJump, nums[i] + i);
+            if (lastJump == i) {
+                jump++;
+                lastJump = farthestJump;
+                if (farthestJump >= n - 1) {
+                    break;
+                }
             }
-            miniJump[i] = mini;
         }
-        return miniJump[0];
+        return jump;
     }
 };
