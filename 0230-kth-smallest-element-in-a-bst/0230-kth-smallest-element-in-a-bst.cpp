@@ -11,21 +11,19 @@
  */
 class Solution {
 public:
-    void solve(priority_queue<int, vector<int>, greater<int>>& pq,TreeNode* root){
-        if(root == NULL){
+    void inorder(int& kthSmallest,int& cnt,TreeNode* root,int k){
+        if (!root || cnt >= k) return;
+        inorder(kthSmallest,cnt,root->left,k);
+        cnt++;
+        if(cnt == k){
+            kthSmallest = root->val;
             return;
         }
-        pq.push(root->val);
-        solve(pq,root->right);
-        solve(pq,root->left);
+        inorder(kthSmallest,cnt,root->right,k);
     }
-    int kthSmallest(TreeNode* root, int k) {    
-        priority_queue<int, vector<int>, greater<int>> pq;
-        solve(pq,root);
-        while(k!=1){
-            pq.pop();
-            k--;
-        }
-        return pq.top();
+    int kthSmallest(TreeNode* root, int k) {
+        int kthSmallest = INT_MAX,cnt = 0;
+        inorder(kthSmallest,cnt,root,k);
+        return kthSmallest;
     }
 };
