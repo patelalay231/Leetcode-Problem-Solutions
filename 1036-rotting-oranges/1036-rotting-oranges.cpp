@@ -4,65 +4,58 @@ public:
         int r = grid.size();
         int c = grid[0].size();
         
-
-        queue<pair<int,int>> q;
+        queue<pair<int, int>> q;
         
         // Storing rotten oranges at time 0 
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(grid[i][j] == 2){
-                    q.push({i,j});
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                if (grid[i][j] == 2) {
+                    q.push({i, j});
                 }
             }
         }
         
-        int min = 0;
-        // Rotting neighnour fresh oranges
-        while(!q.empty()){
+        int minutes = 0;
+        
+        // Directions for the four possible movements (left, right, up, down)
+        vector<pair<int, int>> directions = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
+        
+        // Rotting neighbor fresh oranges
+        while (!q.empty()) {
             int n = q.size();
             bool rotten = false;
-            for(int i=0;i<n;i++){
+            
+            for (int i = 0; i < n; i++) {
                 int row = q.front().first;
                 int column = q.front().second;
                 q.pop();
-                if((column-1) >= 0){
-                    if(grid[row][column-1] == 1){
-                        grid[row][column-1] = 2;
-                        q.push({row,column-1});
+                
+                for (auto dir : directions) {
+                    int newRow = row + dir.first;
+                    int newCol = column + dir.second;
+                    
+                    if (newRow >= 0 && newRow < r && newCol >= 0 && newCol < c && grid[newRow][newCol] == 1) {
+                        grid[newRow][newCol] = 2;
+                        q.push({newRow, newCol});
                         rotten = true;
-                    } 
-                }
-                if((column+1) < c){
-                    if(grid[row][column+1] == 1){
-                        grid[row][column+1] = 2;
-                        q.push({row,column+1});
-                        rotten = true;
-                    } 
-                }
-                if((row+1) < r){
-                    if(grid[row+1][column] == 1){
-                        grid[row+1][column] = 2;
-                        q.push({row+1,column});
-                        rotten = true;
-                    } 
-                }
-                if((row-1) >= 0){
-                    if(grid[row-1][column] == 1){
-                        grid[row-1][column] = 2;
-                        q.push({row-1,column});
-                        rotten = true;
-                    } 
+                    }
                 }
             }
-            if(rotten) min++;
+            
+            if (rotten) {
+                minutes++;
+            }
         }
-        for(int i=0;i<r;i++){
-            for(int j=0;j<c;j++){
-                if(grid[i][j] == 1){
+        
+        // Check if there are any fresh oranges left
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                if (grid[i][j] == 1) {
                     return -1;
                 }
             }
         }
-        return min;
+        
+        return minutes;
     }
 };
