@@ -1,52 +1,67 @@
 class Solution {
 public:
-    void dfs(vector<vector<int>>& board, int rows, int cols, int i, int j,
-             vector<vector<int>>& isConnectedToEdge) {
+    int numEnclaves(vector<vector<int>>& grid) {
+        
+        int n=grid.size();
+        int m=grid[0].size();
 
-        vector<pair<int, int>> dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        vector<vector<int>> vis(n, vector<int>(m, 0));
 
-        for (auto it : dir) {
-            int ni = it.first + i;
-            int nj = it.second + j;
+        // row,col
+        queue<pair<int, int>> q;
 
-            if (ni >= 0 && ni < rows && nj >= 0 && nj < cols &&
-                !isConnectedToEdge[ni][nj] && board[ni][nj] == 1) {
-                isConnectedToEdge[ni][nj] = 1;
-                dfs(board, rows, cols, ni, nj, isConnectedToEdge);
-            }
-        }
-    }
-    int numEnclaves(vector<vector<int>>& board) {
-        int rows = board.size();
-        int cols = board[0].size();
-        vector<vector<int>> isConnectedToEdge(rows,vector<int>(cols,0));
-
-        for(int i=0;i<rows;i++){
-            if(board[i][0] == 1 && !isConnectedToEdge[i][0]){
-                dfs(board,rows,cols,i,0,isConnectedToEdge);
-            }
-            if(board[i][cols-1] == 1 && !isConnectedToEdge[i][cols-1]){
-                dfs(board,rows,cols,i,cols-1,isConnectedToEdge);
-            }
-        }
-
-        for(int i=0;i<cols;i++){
-            if(board[0][i] == 1 && !isConnectedToEdge[0][i]){
-                dfs(board,rows,cols,0,i,isConnectedToEdge);
-            }
-            if(board[rows-1][i] == 1 && !isConnectedToEdge[rows-1][i]){
-                dfs(board,rows,cols,rows-1,i,isConnectedToEdge);
-            }
-        }
-
-        int unreachable = 0;
-        for(int i=1;i<rows-1;i++){
-            for(int j=1;j<cols-1;j++){
-                if(board[i][j] == 1 && !isConnectedToEdge[i][j]){
-                    unreachable++;
+        // traverse in all 4 boundaries
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            {
+                if(i==0 || j==0 || i==n-1 || j==m-1)
+                {
+                    if(grid[i][j]==1)
+                    {
+                        vis[i][j]=1;
+                        q.push({i, j});
+                    }
                 }
             }
         }
-        return unreachable;
+
+        int delrow[]={-1, 0, +1, 0};
+        int delcol[]={0, +1, 0, -1};
+
+        while(!q.empty())
+        {
+            int row=q.front().first;
+            int col=q.front().second;
+            q.pop();
+
+            // 4 directions
+            for(int i=0;i<4;i++)
+            {
+                int nrow=row+delrow[i];
+                int ncol=col+delcol[i];
+
+                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m 
+                        && !vis[nrow][ncol] && grid[nrow][ncol]==1)
+                {
+                    vis[nrow][ncol]=1;
+                    q.push({nrow, ncol});
+                }        
+            }
+        }
+
+        int cnt=0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<m;j++)
+            {
+                if(!vis[i][j] && grid[i][j]==1)
+                {
+                    cnt++;
+                }
+            }
+        }
+
+        return cnt;
     }
 };
