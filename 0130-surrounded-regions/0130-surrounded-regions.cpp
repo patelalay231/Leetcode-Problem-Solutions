@@ -23,28 +23,23 @@ public:
         vector<vector<int>> isConnectedToEdge(rows,vector<int>(cols,0));
 
         for(int i=0;i<rows;i++){
-            if(board[i][0] == 'O'){
+            if(board[i][0] == 'O' && !isConnectedToEdge[i][0]){
                 dfs(board,rows,cols,i,0,isConnectedToEdge);
             }
-        }
-
-        for(int i=0;i<cols;i++){
-            if(board[0][i] == 'O'){
-                dfs(board,rows,cols,0,i,isConnectedToEdge);
-            }
-        }
-
-        for(int i=0;i<rows;i++){
-            if(board[i][cols-1] == 'O'){
+            if(board[i][cols-1] == 'O' && !isConnectedToEdge[i][cols-1]){
                 dfs(board,rows,cols,i,cols-1,isConnectedToEdge);
             }
         }
 
         for(int i=0;i<cols;i++){
-            if(board[rows-1][i] == 'O'){
+            if(board[0][i] == 'O' && !isConnectedToEdge[0][i]){
+                dfs(board,rows,cols,0,i,isConnectedToEdge);
+            }
+            if(board[rows-1][i] == 'O' && !isConnectedToEdge[rows-1][i]){
                 dfs(board,rows,cols,rows-1,i,isConnectedToEdge);
             }
         }
+
 
         for(int i=1;i<rows-1;i++){
             for(int j=1;j<cols-1;j++){
