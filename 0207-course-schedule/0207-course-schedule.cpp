@@ -5,7 +5,7 @@ public:
         vector<int> inDegree(numCourses, 0);
 
         for (auto it : prerequisites) {
-            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
         }
 
         for (int i = 0; i < numCourses; i++) {
