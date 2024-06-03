@@ -34,9 +34,9 @@ public:
             pq.pop();
 
             // If we reach the bottom-right cell, return the effort
-            if(i == rows - 1 && j == cols - 1) {
-                return currentEffort;
-            }
+            // if(i == rows - 1 && j == cols - 1) {
+            //     return currentEffort;
+            // }
 
             for(auto& direction : directions) {
                 int ni = i + direction.first;
@@ -57,6 +57,6 @@ public:
         }
 
         // If we exit the loop without finding a path, return -1 (though in a valid grid, this won't happen)
-        return -1;
+        return diff[rows-1][cols-1];
     }
 };
