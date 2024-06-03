@@ -13,38 +13,33 @@ public:
 
         // define distance vector
         vector<int> dist(n, INT_MAX);
-        vector<int> stops(n, -1);
 
         // priority queue: {cost, {current node, stops taken}}
-        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
+        queue<pair<int, pair<int, int>>> pq;
         
-        // insert src and its distance from src. {cost, {src, stops}}
+        // insert src and its distance from src. {stop, {src, cost}}
         pq.push({0, {src, 0}});
         dist[src] = 0;
-        stops[src] = 0;
 
         while (!pq.empty()) {
-            auto it = pq.top();
+            auto it = pq.front();
             pq.pop();
-            int currDist = it.first;
+            int currDist = it.second.second;
             int source = it.second.first;
-            int currStops = it.second.second;
+            int currStops = it.first;
 
-            if (source == dst && currStops <= k + 1) return currDist;
-
-            if (currStops > k) continue;
-
+            if(currStops > k) continue;
             for (auto adjNode : adj[source]) {
                 int adjDest = adjNode.first;
                 int adjCost = adjNode.second;
 
-                if (currDist + adjCost < dist[adjDest] || currStops + 1 < stops[adjDest]) {
+                if (adjCost + currDist < dist[adjDest] && currStops <= k) {
                     dist[adjDest] = currDist + adjCost;
-                    stops[adjDest] = currStops + 1;
-                    pq.push({dist[adjDest], {adjDest, currStops + 1}});
+                    pq.push({currStops+1, {adjDest, dist[adjDest]}});
                 }
             }
         }
-        return -1;
+        if(dist[dst] == INT_MAX) return -1;
+        return dist[dst];
     }
 };
