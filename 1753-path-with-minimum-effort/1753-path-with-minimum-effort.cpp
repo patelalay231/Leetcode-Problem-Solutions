@@ -26,7 +26,9 @@ public:
             int i = it->second.first;
             int j = it->second.second;
             st.erase(it);
-            
+            if(i == rows - 1 && j == cols - 1) {
+                return currentEffort;
+            }
             for(auto& direction : directions) {
                 int ni = i + direction.first;
                 int nj = j + direction.second;
