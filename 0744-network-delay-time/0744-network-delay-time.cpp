@@ -12,20 +12,24 @@ public:
             adj[src].push_back({dest,time});
         }
         // Initialize queue
-        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
-        pq.push({0,k});
+        set<pair<int,int>> st;
+        st.insert({0,k});
         travelTime[k] = 0;
 
-        while(!pq.empty()){
-            int src = pq.top().second;
-            int srcTime = pq.top().first;
-            pq.pop();
+        while(!st.empty()){
+            auto it = *(st.begin());
+            int src = it.second;
+            int srcTime = it.first;
+            st.erase(it);
             for(auto it : adj[src]){
                 int dst = it.first;
                 int dstTime = it.second;
                 if(srcTime + dstTime < travelTime[dst]){
+                    if(travelTime[dst] != INT_MAX){
+                        st.erase({travelTime[dst],dst});
+                    }
                     travelTime[dst] = srcTime + dstTime;
-                    pq.push({travelTime[dst],dst});
+                    st.insert({travelTime[dst],dst});
                 }
             }           
         }
