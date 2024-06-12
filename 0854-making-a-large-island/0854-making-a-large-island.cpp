@@ -53,14 +53,13 @@ public:
 
 class Solution {
 public:
-    bool isValid(int adjr, int adjc, int n, int m) {
-        return adjr >= 0 && adjr < n && adjc >= 0 && adjc < m;
+    bool isValid(int adjr, int adjc, int n) {
+        return adjr >= 0 && adjr < n && adjc >= 0 && adjc < n;
     }
 
     int largestIsland(vector<vector<int>>& grid) {
         int n = grid.size();
-        int m = grid[0].size();
-        DisjointSet ds(n * m);
+        DisjointSet ds(n * n);
 
         // Directions for adjacency (up, right, down, left)
         vector<int> adjr = {-1, 0, 1, 0};
@@ -68,14 +67,14 @@ public:
 
         // Connect adjacent 1's
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+            for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 1) {
-                    int node = i * m + j;
+                    int node = i * n + j;
                     for (int k = 0; k < 4; k++) {
                         int nr = adjr[k] + i;
                         int nc = adjc[k] + j;
-                        if (isValid(nr, nc, n, m) && grid[nr][nc] == 1) {
-                            int adjNode = nr * m + nc;
+                        if (isValid(nr, nc, n) && grid[nr][nc] == 1) {
+                            int adjNode = nr * n + nc;
                             ds.unionBySize(node, adjNode);
                         }
                     }
@@ -88,14 +87,14 @@ public:
 
         // Try flipping each 0 to 1 and see if we get a larger island
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+            for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 0) {
                     unordered_set<int> uniqueIslands;
                     for (int k = 0; k < 4; k++) {
                         int nr = adjr[k] + i;
                         int nc = adjc[k] + j;
-                        if (isValid(nr, nc, n, m) && grid[nr][nc] == 1) {
-                            uniqueIslands.insert(ds.findUPar(nr * m + nc));
+                        if (isValid(nr, nc, n) && grid[nr][nc] == 1) {
+                            uniqueIslands.insert(ds.findUPar(nr * n + nc));
                         }
                     }
                     int potentialSize = 1;  // Starting with the flipped cell itself
