@@ -1,23 +1,38 @@
 class Solution {
-public:
-    int minFallingPathSum(vector<vector<int>>& nums) {
-        int n = nums.size();
+    public:
+        int minFallingPathSum(vector<vector<int>>& matrix) {
+            int n = matrix.size() ; // as n x n matrix 
 
-        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
-        if(n==1) return nums[0][0];
-        
-        for(int i=1;i<=n;i++)
-        {
-            for(int j=1;j<=n;j++)
-            {
-                if(j<n && j>1) dp[i][j] = min(dp[i-1][j-1],min(dp[i-1][j],dp[i-1][j+1])) + nums[i-1][j-1];
-                if(j==n) dp[i][j] = min(dp[i-1][j-1],dp[i-1][j]) + nums[i-1][j-1];
-                if(j==1) dp[i][j] = min(dp[i-1][j],dp[i-1][j+1]) + nums[i-1][j-1];
+            int dp[n][n] ; // as n = 5
+            int res = INT_MAX ; 
+
+            for( int i = 0 ; i< n ; i++ ) {
+                //intialize the first row of dp array same as matrix first row 
+                dp[0][i] = matrix[0][i] ;
             }
-        }
-        int mini = INT_MAX;
 
-        for(int i=1;i<=n;i++) mini = min(mini,dp[n][i]);
-        return mini;
-    }
+            int down , diagonal_left , diagonal_right ; 
+
+            for( int row = 1 ; row < n ; row++ ) {
+                for( int col = 0 ; col < n ; col++ ) {
+
+                    down = dp[row - 1][col] ;
+                    diagonal_left = (col > 0) ? dp[row - 1][col - 1] : INT_MAX ;
+                    diagonal_right = (col < n - 1) ? dp[row - 1][col + 1] : INT_MAX ;
+
+                    dp[ row ][ col ] = matrix[ row ][ col ] + min(down , min( diagonal_left , diagonal_right )) ; 
+                }
+            } 
+
+            for( int last = 0 ; last < n ; last++ ) {
+                res = min ( res , dp[ n-1 ][ last ] ) ; 
+            }
+
+            return res ; 
+
+
+
+
+            
+        }
 };
