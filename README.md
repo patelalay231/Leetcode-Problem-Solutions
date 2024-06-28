@@ -10,3 +10,15 @@ Consistency is the key to success. Each day, I strive to solve at least one Leet
 "Success is the sum of small efforts, repeated day in and day out." - Robert Collier
 
 Happy Coding! 🚀
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
+<!---LeetCode Topics End-->
