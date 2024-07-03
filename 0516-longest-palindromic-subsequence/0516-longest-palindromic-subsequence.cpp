@@ -30,5 +30,4 @@ public:
         reverse(s2.begin(), s2.end());
         return longestCommonSubsequence(s, s2);
     }
-
 };
