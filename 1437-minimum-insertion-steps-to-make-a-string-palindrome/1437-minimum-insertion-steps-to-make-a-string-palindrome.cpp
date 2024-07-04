@@ -1,33 +1,21 @@
 class Solution {
-private:
-
-    int solveMemoization(string &s, string &t, int p1, int p2, vector<vector<int>> &dp)
-    {
-        if(p1<0 || p2<0)
-            return 0;
-        
-        if(dp[p1][p2] != -1)
-            return dp[p1][p2];
-        
-        int ans = 0;
-        if(s[p1] == t[p2])
-            ans = 1 + solveMemoization(s, t, p1-1, p2-1, dp);
-        else  
-            ans = max(solveMemoization(s, t, p1-1, p2, dp), solveMemoization(s, t, p1, p2-1, dp));
-        
-        dp[p1][p2] = ans;
-        return dp[p1][p2];
-    }
-
 public:
+    int lcs(string& s1,string& s2,int idx1,int idx2,vector<vector<int>>& dp){
+        if(idx1 < 0 || idx2 < 0){
+            return 0;
+        }
+        if(dp[idx1][idx2] != -1) return dp[idx1][idx2];
+        if(s1[idx1] == s2[idx2]){
+            dp[idx1][idx2] = 1 + lcs(s1,s2,idx1-1,idx2-1,dp);
+            return dp[idx1][idx2];
+        }
+        return dp[idx1][idx2] = max(lcs(s1,s2,idx1-1,idx2,dp),lcs(s1,s2,idx1,idx2-1,dp));
+    }
     int minInsertions(string s) {
-        int n = s.size();
-        string t = s;
-        reverse(t.begin(), t.end());
-
-        vector<vector<int>> dp(n+1, vector<int> (n+1, -1));
-        int longestPalindrome = solveMemoization(s, t, n-1, n-1, dp);
-
-        return n - longestPalindrome;
+        string revS = s;
+        reverse(s.begin(),s.end());
+        int len = s.length();
+        vector<vector<int>> dp(len,vector<int>(len,-1));
+        return len - lcs(s,revS,len-1,len-1,dp);
     }
 };
