@@ -1,28 +1,41 @@
 class Solution {
 public:
-    bool isMatch(string s1, string s2) {
-        int n = s1.size();
-        int m = s2.size();
-        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
-        vector<bool> prev(n+1, 0), curr(n+1, 0);
-        prev[0] = true;
-        for(int i=1; i<=n; i++) {
-            prev[i] = false;
+    bool f(int idxs, int idxp, string& s, string& p, vector<vector<int>>& dp) {
+
+        if (idxs < 0 and idxp < 0) {
+            return true;
         }
-        
-        for(int i=1; i<=m; i++) {
-            int flag = true;
-            for(int ii=1; ii<=i; ii++) {
-                if(s2[ii-1] != '*') flag = false;
-            }
-            curr[0] = flag;
-            for(int j=1; j<=n; j++) {
-                if(s1[j-1] == s2[i-1] || s2[i-1] == '?') curr[j] = prev[j-1];
-                else if(s2[i-1] == '*') curr[j] = prev[j] | curr[j-1];
-                else curr[j] = false;
-            }
-            prev = curr;
+        if (idxs >= 0 and
+            idxp < 0) // string is still left btw pattern has been exhausted
+        {
+            return false;
         }
-        return prev[n];
+        if (idxs < 0 and idxp >= 0) {
+            for (int ii = 0; ii <= idxp; ii++) {
+                if (p[ii] != '*') {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (dp[idxs][idxp] != -1) {
+            return dp[idxs][idxp];
+        }
+
+        if (p[idxp] == s[idxs] or p[idxp] == '?') {
+            return dp[idxs][idxp] = f(idxs - 1, idxp - 1, s, p, dp);
+        }
+
+        if (p[idxp] == '*') {
+            return dp[idxs][idxp] =
+                       f(idxs - 1, idxp, s, p, dp) or f(idxs, idxp - 1, s, p, dp);
+        }
+        return dp[idxs][idxp] = false;
     }
-};
+    bool isMatch(string s, string p) {
+        int n = s.size();
+        int m = p.size();
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return f(n - 1, m - 1, s, p, dp);
+    }
+    };
