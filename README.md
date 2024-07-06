@@ -30,6 +30,7 @@ Happy Coding! 🚀
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0516-longest-palindromic-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [1170-shortest-common-supersequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1170-shortest-common-supersequence) |
@@ -39,8 +40,13 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 ## Recursion
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
+## Array
+|  |
+| ------- |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 <!---LeetCode Topics End-->
