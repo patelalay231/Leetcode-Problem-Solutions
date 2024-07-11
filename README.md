@@ -19,6 +19,7 @@ Happy Coding! 🚀
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
+| [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
@@ -86,6 +87,7 @@ Happy Coding! 🚀
 ## Hash Table
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 ## Two Pointers
 |  |
@@ -99,4 +101,12 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
