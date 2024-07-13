@@ -1,56 +1,67 @@
-#include <iostream>
-using namespace std;
-
+struct Node{
+    Node* links[26];
+    bool flag = false;
+    bool containsKey(char c){
+        return links[c-'a']!=NULL;
+    }
+    void put(char c,Node* temp){
+        links[c-'a'] = temp;
+    }
+    Node* get(char c){
+        return links[c-'a'];
+    }
+    void setEnd(){
+        flag = true;
+    }
+    bool isEnd(){
+        return flag;
+    }
+};
 class Trie {
-private:
-    struct Node {
-        Node* links[26];
-        bool flag;
-        Node() {
-            for (int i = 0; i < 26; i++) {
-                links[i] = NULL;
-            }
-            flag = false; // Initialize flag
-        }
-    };
     Node* root;
-
 public:
-    Trie() { root = new Node(); }
-
+    Trie() {
+        root = new Node();
+    }
+    
     void insert(string word) {
-        Node* mover = root;
-        int n = word.length();
-        for (int i = 0; i < n; i++) {
-            if (mover->links[word[i] - 'a'] == NULL) {
-                mover->links[word[i] - 'a'] = new Node();
+        Node* temp = root;
+        for(int i=0;i<word.size();i++){
+            if(!temp->containsKey(word[i])){
+                temp->put(word[i],new Node());
             }
-            mover = mover->links[word[i] - 'a'];
+            temp = temp->get(word[i]);
         }
-        mover->flag = true; // Mark the end of the word
+        temp->setEnd();
     }
-
+    
     bool search(string word) {
-        int n = word.length();
-        Node* mover = root;
-        for (int i = 0; i < n; i++) {
-            if (mover->links[word[i] - 'a'] == NULL) {
+        Node* temp = root;
+        for(int i=0;i<word.size();i++){
+            if(!temp->containsKey(word[i])){
                 return false;
             }
-            mover = mover->links[word[i] - 'a'];
+            temp = temp->get(word[i]);
         }
-        return mover->flag;
+        return temp->isEnd();
     }
-
+    
     bool startsWith(string prefix) {
-        int n = prefix.length();
-        Node* mover = root;
-        for (int i = 0; i < n; i++) {
-            if (mover->links[prefix[i] - 'a'] == NULL) {
+        Node* temp = root;
+        for(int i=0;i<prefix.size();i++){
+            if(!temp->containsKey(prefix[i])){
                 return false;
             }
-            mover = mover->links[prefix[i] - 'a'];
+            temp = temp->get(prefix[i]);
         }
         return true;
     }
 };
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
