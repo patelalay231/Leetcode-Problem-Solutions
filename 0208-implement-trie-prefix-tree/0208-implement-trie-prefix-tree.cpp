@@ -1,39 +1,56 @@
 #include <iostream>
-#include <unordered_map>
-#include <vector>
 using namespace std;
 
 class Trie {
-public:
-    Trie() {
-        
-    }
-    
-    void insert(string word) {
-        wordMap[word] = true;
-    }
-    
-    bool search(string word) {
-        return wordMap.find(word) != wordMap.end();
-    }
-    
-    bool startsWith(string prefix) {
-        for (const auto& entry : wordMap) {
-            if (entry.first.find(prefix) == 0) {
-                return true;
-            }
-        }
-        return false;
-    }
-
 private:
-    unordered_map<string, bool> wordMap;
-};
+    struct Node {
+        Node* links[26];
+        bool flag;
+        Node() {
+            for (int i = 0; i < 26; i++) {
+                links[i] = NULL;
+            }
+            flag = false; // Initialize flag
+        }
+    };
+    Node* root;
 
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie* obj = new Trie();
- * obj->insert(word);
- * bool param_2 = obj->search(word);
- * bool param_3 = obj->startsWith(prefix);
- */
+public:
+    Trie() { root = new Node(); }
+
+    void insert(string word) {
+        Node* mover = root;
+        int n = word.length();
+        for (int i = 0; i < n; i++) {
+            if (mover->links[word[i] - 'a'] == NULL) {
+                mover->links[word[i] - 'a'] = new Node();
+            }
+            mover = mover->links[word[i] - 'a'];
+        }
+        mover->flag = true; // Mark the end of the word
+    }
+
+    bool search(string word) {
+        int n = word.length();
+        Node* mover = root;
+        for (int i = 0; i < n; i++) {
+            if (mover->links[word[i] - 'a'] == NULL) {
+                return false;
+            }
+            mover = mover->links[word[i] - 'a'];
+        }
+        return mover->flag;
+    }
+
+    bool startsWith(string prefix) {
+        int n = prefix.length();
+        Node* mover = root;
+        for (int i = 0; i < n; i++) {
+            if (mover->links[prefix[i] - 'a'] == NULL) {
+                return false;
+            }
+            mover = mover->links[prefix[i] - 'a'];
+        }
+        return true;
+    }
+};
