@@ -1,9 +1,10 @@
-struct Node {
-    Node* links[2];
-    int n = 0;
-    bool contain(int bit) { return links[bit]; }
-    void put(int bit, Node* node) { links[bit] = node; }
-    Node* get(int bit) { return links[bit]; }
+class Node {
+
+public:
+    Node* link[2];
+    bool containsKey(int val) { return (link[val]); }
+    Node* get(int val) { return link[val]; }
+    void put(Node* node, int val) { link[val] = node; }
 };
 
 class Trie {
@@ -12,50 +13,43 @@ private:
 
 public:
     Trie() { root = new Node(); }
-    void insert(bitset<32>& bits, int num) {
+    void insert(int val) {
         Node* node = root;
         for (int i = 31; i >= 0; i--) {
-            int x = 0;
-            if (bits[i])
-                x = 1;
-            if (!node->contain(x))
-                node->put(x, new Node());
-            node = node->get(x);
+            int bit = (val >> i) & 1;
+            if (!node->containsKey(bit)) {
+                node->put(new Node(), bit);
+            }
+            node = node->get(bit);
         }
-        node->n = num;
     }
-    int findxor(bitset<32>& bits, int num) {
+    int getMax(int num) {
         Node* node = root;
+        int maxNum = 0;
         for (int i = 31; i >= 0; i--) {
-            int x = 1, y = 0;
-            if (bits[i]) {
-                x = 0;
-                y = 1;
+            int bit = (num >> i) & 1;
+            if (node->containsKey(!bit)) {
+                maxNum |= (1 << i);
+                node = node->get(!bit);
+
+            } else {
+                node = node->get(bit);
             }
-            if (node->contain(x)) {
-                node = node->links[x];
-                continue;
-            }
-            node = node->links[y];
         }
-        return num ^ (node->n);
+        return maxNum;
     }
 };
-
 class Solution {
 public:
     int findMaximumXOR(vector<int>& nums) {
         Trie trie;
-        int n = nums.size();
-        int ans = 0;
-        for (int i = 0; i < n; i++) {
-            bitset<32> seti(nums[i]);
-            trie.insert(seti, nums[i]);
+        for (auto& it : nums) {
+            trie.insert(it);
         }
-        for (int i = 0; i < n; i++) {
-            bitset<32> seti(nums[i]);
-            ans = max(ans, trie.findxor(seti, nums[i]));
+        int mx = 0;
+        for (auto& it : nums) {
+            mx = max(mx, trie.getMax(it));
         }
-        return ans;
+        return mx;
     }
 };
