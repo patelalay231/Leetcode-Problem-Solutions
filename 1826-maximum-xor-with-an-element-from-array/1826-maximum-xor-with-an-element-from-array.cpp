@@ -3,10 +3,10 @@ public:
     node* child[2];
     node() { child[0] = child[1] = NULL; }
 };
-class Trie {
+class trie {
 public:
     node* root;
-    Trie() { root = new node(); }
+    trie() { root = new node(); }
     void insert(int k) {
         node* temp = root;
         for (int i = 31; i >= 0; i--) {
@@ -44,7 +44,7 @@ public:
             v[i] = {q[i][1], q[i][0], i};
         }
         sort(v.begin(), v.end());
-        Trie trie;
+        trie obj = new trie();
         int j = 0;
         for (auto it : v) {
             int x = it[1], m = it[0], ind = it[2];
