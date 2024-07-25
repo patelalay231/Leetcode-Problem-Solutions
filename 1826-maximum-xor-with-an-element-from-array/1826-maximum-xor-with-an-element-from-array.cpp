@@ -44,7 +44,7 @@ public:
             v[i] = {q[i][1], q[i][0], i};
         }
         sort(v.begin(), v.end());
-        trie obj = new trie();
+        trie* obj = new trie();
         int j = 0;
         for (auto it : v) {
             int x = it[1], m = it[0], ind = it[2];
