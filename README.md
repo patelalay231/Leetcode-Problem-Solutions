@@ -16,6 +16,7 @@ Happy Coding! 🚀
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0038-count-and-say](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
@@ -100,6 +101,7 @@ Happy Coding! 🚀
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
@@ -144,4 +146,8 @@ Happy Coding! 🚀
 | ------- |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
