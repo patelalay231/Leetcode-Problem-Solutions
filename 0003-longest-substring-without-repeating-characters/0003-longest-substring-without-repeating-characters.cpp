@@ -4,7 +4,7 @@ public:
         int maxLen = 0;
         int n = s.length();
         int i = 0, j = 0;
-        vector<int> ele(256,-1);
+        vector<int> ele(128,-1);
         while (j < n) {
             if (ele[s[j]] != -1) {
                 i = max(i,ele[s[j]] + 1);
