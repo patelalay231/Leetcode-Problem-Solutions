@@ -31,6 +31,7 @@ Happy Coding! 🚀
 | [1170-shortest-common-supersequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -155,12 +156,15 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
 ## String Matching
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
 ## Hash Function
 |  |
 | ------- |
 | [0214-shortest-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0214-shortest-palindrome) |
+| [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
 <!---LeetCode Topics End-->
