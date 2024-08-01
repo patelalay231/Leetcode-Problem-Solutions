@@ -67,6 +67,7 @@ Happy Coding! 🚀
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 ## Array
 |  |
@@ -167,4 +168,8 @@ Happy Coding! 🚀
 | ------- |
 | [0214-shortest-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0214-shortest-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
