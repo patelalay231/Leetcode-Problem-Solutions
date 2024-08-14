@@ -96,10 +96,12 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0300-longest-increasing-subsequence) |
+| [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
 ## Math
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
+| [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
 ## Sorting
 |  |
 | ------- |
@@ -198,4 +200,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0561-array-partition) |
+## Number Theory
+|  |
+| ------- |
+| [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
 <!---LeetCode Topics End-->
