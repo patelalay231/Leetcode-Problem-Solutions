@@ -82,6 +82,7 @@ Happy Coding! 🚀
 | [0312-burst-balloons](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1121-partition-array-for-maximum-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1121-partition-array-for-maximum-sum) |
@@ -111,6 +112,7 @@ Happy Coding! 🚀
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 ## Two Pointers
 |  |
@@ -185,4 +187,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+## Prefix Sum
+|  |
+| ------- |
+| [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 <!---LeetCode Topics End-->
