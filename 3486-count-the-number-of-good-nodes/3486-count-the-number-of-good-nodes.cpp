@@ -1,3 +1,9 @@
+static auto _ = [](){
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return nullptr;
+}();
 class Solution {
 public:
     // Adjacency list to represent the tree
