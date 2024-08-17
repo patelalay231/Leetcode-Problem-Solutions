@@ -210,4 +210,12 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
+## Tree
+|  |
+| ------- |
+| [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
+## Depth-First Search
+|  |
+| ------- |
+| [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 <!---LeetCode Topics End-->
