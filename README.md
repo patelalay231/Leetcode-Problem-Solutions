@@ -91,6 +91,7 @@ Happy Coding! 🚀
 | [1121-partition-array-for-maximum-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1646-kth-missing-positive-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
@@ -98,6 +99,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0300-longest-increasing-subsequence) |
+| [1646-kth-missing-positive-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
 ## Math
 |  |
