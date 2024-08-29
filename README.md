@@ -27,6 +27,7 @@ Happy Coding! 🚀
 | [0516-longest-palindromic-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0583-delete-operation-for-two-strings) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1078-remove-outermost-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -151,6 +152,7 @@ Happy Coding! 🚀
 | ------- |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1078-remove-outermost-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1078-remove-outermost-parentheses) |
 ## Matrix
 |  |
 | ------- |
