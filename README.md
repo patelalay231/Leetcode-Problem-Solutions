@@ -33,6 +33,7 @@ Happy Coding! 🚀
 | [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
+| [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
 ## Dynamic Programming
 |  |
@@ -67,6 +68,7 @@ Happy Coding! 🚀
 | [0561-array-partition](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0561-array-partition) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 ## Recursion
 |  |
 | ------- |
@@ -106,6 +108,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
+| [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
 ## Sorting
 |  |
