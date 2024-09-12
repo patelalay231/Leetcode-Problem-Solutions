@@ -4,15 +4,12 @@ class Solution {
 public:
 
     void sub(vector<int> &ans, vector<vector<int>> &res, vector<int> &nums, int ind){
-        
-        res.push_back(ans);
-
-        for(int i=ind;i<nums.size();i++){
-            ans.push_back(nums[i]);
-            sub(ans,res,nums,i+1);
-            ans.pop_back();
-        }
-
+        if(ind == nums.size())
+            return res.push_back(ans);
+        sub(ans,res,nums,ind+1);
+        ans.push_back(nums[ind]);
+        sub(ans,res,nums,ind+1);
+        ans.pop_back();
     }    
 
     vector<vector<int>> subsets(vector<int>& nums) {
