@@ -115,6 +115,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+| [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0561-array-partition](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0561-array-partition) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
@@ -132,6 +133,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 ## Binary Indexed Tree
 |  |
@@ -145,6 +147,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
+| [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
 ## Trie
 |  |
 | ------- |
@@ -231,4 +234,12 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
