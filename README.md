@@ -249,4 +249,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
