@@ -253,6 +253,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0197-rising-temperature](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0197-rising-temperature) |
+| [0570-managers-with-at-least-5-direct-reports](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0584-find-customer-referee](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0595-big-countries) |
 | [1258-article-views-i](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1258-article-views-i) |
