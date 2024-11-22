@@ -22,6 +22,7 @@ Happy Coding! 🚀
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0132-palindrome-partitioning-ii) |
+| [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0214-shortest-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0214-shortest-palindrome) |
 | [0516-longest-palindromic-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0516-longest-palindromic-subsequence) |
@@ -109,6 +110,7 @@ Happy Coding! 🚀
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [2628-minimize-the-maximum-of-two-arrays](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2628-minimize-the-maximum-of-two-arrays) |
@@ -125,6 +127,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
