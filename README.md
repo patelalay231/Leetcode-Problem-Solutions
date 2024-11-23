@@ -80,6 +80,7 @@ Happy Coding! 🚀
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -131,6 +132,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
@@ -173,6 +175,7 @@ Happy Coding! 🚀
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Monotonic Stack
