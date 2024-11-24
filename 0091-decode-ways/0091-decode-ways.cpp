@@ -1,28 +1,28 @@
 class Solution {
 public:
-    int helper(string s, int n, int i, vector<int>& dp) {
-        if (i == n) {
-            return 1; // Base case: reached the end of the string
+    int numDecodings(std::string s) {
+        if (s.empty() || s[0] == '0') {
+            return 0;
         }
-        if (dp[i] != -1) return dp[i];
-        if (s[i] == '0') return 0; // Leading zero is not valid
 
-        int one = helper(s, n, i + 1, dp); // Single digit decode
-        int two = 0;
+        int n = s.length();
+        std::vector<int> dp(n + 1, 0);
+        dp[0] = 1;
+        dp[1] = 1;
 
-        if (i + 1 < n) { // Two-digit decode
-            int sub = stoi(s.substr(i, 2));
-            if (sub <= 26) {
-                two = helper(s, n, i + 2, dp);
+        for (int i = 2; i <= n; ++i) {
+            int oneDigit = s[i - 1] - '0';
+            int twoDigits = std::stoi(s.substr(i - 2, 2));
+
+            if (oneDigit != 0) {
+                dp[i] += dp[i - 1];
+            }
+
+            if (10 <= twoDigits && twoDigits <= 26) {
+                dp[i] += dp[i - 2];
             }
         }
 
-        return dp[i] = one + two;
-    }
-
-    int numDecodings(string s) {
-        int n = s.size();
-        vector<int> dp(n, -1);
-        return helper(s, n, 0, dp);
+        return dp[n];
     }
 };
