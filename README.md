@@ -19,6 +19,7 @@ Happy Coding! 🚀
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0038-count-and-say](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0132-palindrome-partitioning-ii) |
@@ -81,6 +82,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -122,6 +124,7 @@ Happy Coding! 🚀
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
@@ -133,6 +136,7 @@ Happy Coding! 🚀
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
