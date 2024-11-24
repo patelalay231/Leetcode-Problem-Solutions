@@ -21,6 +21,7 @@ Happy Coding! 🚀
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
+| [0091-decode-ways](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0132-palindrome-partitioning-ii) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
@@ -44,6 +45,7 @@ Happy Coding! 🚀
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
+| [0091-decode-ways](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
