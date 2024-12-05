@@ -11,23 +11,14 @@
  */
 class Solution {
 public:
-    void helper(TreeNode* root,vector<int>& preorder){
-        if(root == NULL){
-            return;
-        }
-        preorder.push_back(root->val);
-        helper(root->left,preorder);
-        helper(root->right,preorder);
-    }
+    TreeNode *prev=NULL;
+
     void flatten(TreeNode* root) {
-        vector<int> preorder;
-        helper(root,preorder);
-        TreeNode* temp = root;
-        int n = preorder.size();
-        for(int i=1;i<n;i++){
-            temp->left = NULL;
-            temp->right = new TreeNode(preorder[i]);
-            temp = temp->right;
-        }
+        if(!root) return;
+        flatten(root->right);
+        flatten(root->left);
+        root->right=prev;
+        root->left=NULL;
+        prev=root;
     }
 };
