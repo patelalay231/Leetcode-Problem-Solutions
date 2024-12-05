@@ -176,6 +176,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1078-remove-outermost-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1078-remove-outermost-parentheses) |
 ## Matrix
@@ -217,6 +218,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0021-merge-two-sorted-lists) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -246,11 +248,13 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Backtracking
@@ -269,6 +273,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Database
 |  |
