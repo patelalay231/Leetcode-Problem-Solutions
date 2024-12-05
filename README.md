@@ -91,6 +91,7 @@ Happy Coding! 🚀
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+| [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0300-longest-increasing-subsequence) |
@@ -185,6 +186,7 @@ Happy Coding! 🚀
 | ------- |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Monotonic Stack
 |  |
@@ -258,6 +260,7 @@ Happy Coding! 🚀
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Backtracking
 |  |
@@ -311,4 +314,12 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
