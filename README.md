@@ -110,6 +110,7 @@ Happy Coding! 🚀
 | [1646-kth-missing-positive-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2785-semi-ordered-permutation](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2785-semi-ordered-permutation) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
 ## Binary Search
 |  |
@@ -251,6 +252,7 @@ Happy Coding! 🚀
 ## Simulation
 |  |
 | ------- |
+| [2785-semi-ordered-permutation](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2785-semi-ordered-permutation) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
 ## Tree
 |  |
