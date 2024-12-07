@@ -232,6 +232,7 @@ Happy Coding! 🚀
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+| [0773-logical-or-of-two-binary-grids-represented-as-quad-trees](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0773-logical-or-of-two-binary-grids-represented-as-quad-trees) |
 ## Counting
 |  |
 | ------- |
@@ -260,6 +261,7 @@ Happy Coding! 🚀
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0773-logical-or-of-two-binary-grids-represented-as-quad-trees](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0773-logical-or-of-two-binary-grids-represented-as-quad-trees) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Depth-First Search
 |  |
