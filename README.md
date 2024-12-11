@@ -37,6 +37,7 @@ Happy Coding! 🚀
 | [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
 ## Dynamic Programming
@@ -153,6 +154,7 @@ Happy Coding! 🚀
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Two Pointers
 |  |
 | ------- |
@@ -239,6 +241,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Prefix Sum
 |  |
 | ------- |
