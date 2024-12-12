@@ -107,6 +107,7 @@ Happy Coding! 🚀
 | [0719-find-k-th-smallest-pair-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1121-partition-array-for-maximum-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
+| [1325-path-with-maximum-probability](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1646-kth-missing-positive-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
@@ -288,6 +289,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [1325-path-with-maximum-probability](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1325-path-with-maximum-probability) |
 ## Data Stream
 |  |
 | ------- |
@@ -347,5 +349,10 @@ Happy Coding! 🚀
 ## Graph
 |  |
 | ------- |
+| [1325-path-with-maximum-probability](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1325-path-with-maximum-probability) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
+## Shortest Path
+|  |
+| ------- |
+| [1325-path-with-maximum-probability](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1325-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
