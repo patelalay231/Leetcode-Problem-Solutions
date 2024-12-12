@@ -112,6 +112,7 @@ Happy Coding! 🚀
 | [1663-detect-cycles-in-2d-grid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2785-semi-ordered-permutation](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2785-semi-ordered-permutation) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
 ## Binary Search
@@ -155,6 +156,7 @@ Happy Coding! 🚀
 | [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -267,6 +269,7 @@ Happy Coding! 🚀
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0773-logical-or-of-two-binary-grids-represented-as-quad-trees](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0773-logical-or-of-two-binary-grids-represented-as-quad-trees) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Depth-First Search
 |  |
@@ -275,6 +278,7 @@ Happy Coding! 🚀
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 | [3486-count-the-number-of-good-nodes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3486-count-the-number-of-good-nodes) |
 ## Backtracking
 |  |
@@ -333,9 +337,15 @@ Happy Coding! 🚀
 | ------- |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Union Find
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1663-detect-cycles-in-2d-grid) |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
+## Graph
+|  |
+| ------- |
+| [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 <!---LeetCode Topics End-->
