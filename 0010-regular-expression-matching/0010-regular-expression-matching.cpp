@@ -1,23 +1,33 @@
 class Solution {
 public:
-    bool helper(string s, string p, int i, int j,vector<vector<int>>& dp) {
-        if(i >= s.size() && j >= p.size()){
-            return true;
-        }
-        if(j >= p.size()){
-            return false;
-        }
-        if(dp[i][j] != -1) return dp[i][j];
-        bool match = i < s.size() && (s[i] == p[j] || p[j] == '.');
-        if(j+1 < p.size() && p[j+1] == '*'){
-            return dp[i][j] = helper(s,p,i,j+2,dp) || (match && helper(s,p,i+1,j,dp));
-        }
-        if(match)
-            return dp[i][j] = helper(s,p,i+1,j+1,dp);
-        return dp[i][j] = false;
-    }
     bool isMatch(string s, string p) {
-        vector<vector<int>> dp(s.size()+1,vector<int>(p.size()+1,-1));
-        return helper(s,p,0,0,dp);
+        int m = s.size(), n = p.size();
+        vector<vector<bool>> dp(m + 1, vector<bool>(n + 1, false));
+
+        // Base case: empty string matches empty pattern.
+        dp[0][0] = true;
+
+        // Handle patterns like a*, a*b*, etc., that can match an empty string.
+        for (int j = 2; j <= n; j++) {
+            if (p[j - 1] == '*') {
+                dp[0][j] = dp[0][j - 2];
+            }
+        }
+
+        // Fill the DP table.
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (p[j - 1] == '.' || p[j - 1] == s[i - 1]) {
+                    // Current characters match.
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else if (p[j - 1] == '*') {
+                    // Consider zero occurrences or one/more occurrences of the preceding character.
+                    dp[i][j] = dp[i][j - 2] || 
+                               (dp[i - 1][j] && (p[j - 2] == s[i - 1] || p[j - 2] == '.'));
+                }
+            }
+        }
+
+        return dp[m][n];
     }
 };
