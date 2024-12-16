@@ -91,6 +91,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
+| [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
@@ -155,6 +156,7 @@ Happy Coding! 🚀
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
+| [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
