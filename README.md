@@ -19,6 +19,7 @@ Happy Coding! 🚀
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0010-regular-expression-matching) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
+| [0032-longest-valid-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
@@ -46,6 +47,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0010-regular-expression-matching) |
+| [0032-longest-valid-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
@@ -193,6 +195,7 @@ Happy Coding! 🚀
 ## Stack
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0085-maximal-rectangle](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
