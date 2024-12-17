@@ -87,6 +87,7 @@ Happy Coding! 🚀
 | [0010-regular-expression-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0010-regular-expression-matching) |
 | [0021-merge-two-sorted-lists](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0044-wildcard-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0044-wildcard-matching) |
+| [0060-permutation-sequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0060-permutation-sequence) |
 ## Array
 |  |
 | ------- |
@@ -133,6 +134,7 @@ Happy Coding! 🚀
 ## Math
 |  |
 | ------- |
+| [0060-permutation-sequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0060-permutation-sequence) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
