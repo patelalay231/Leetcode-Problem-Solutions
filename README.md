@@ -295,6 +295,7 @@ Happy Coding! 🚀
 ## Backtracking
 |  |
 | ------- |
+| [0052-n-queens-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
 ## Heap (Priority Queue)
 |  |
