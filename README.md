@@ -103,6 +103,7 @@ Happy Coding! 🚀
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0238-product-of-array-except-self) |
@@ -139,6 +140,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0060-permutation-sequence) |
+| [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0171-excel-sheet-column-number) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
@@ -165,6 +167,7 @@ Happy Coding! 🚀
 | [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
 | [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
@@ -380,4 +383,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
+## Geometry
+|  |
+| ------- |
+| [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 <!---LeetCode Topics End-->
