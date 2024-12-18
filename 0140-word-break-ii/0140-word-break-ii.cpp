@@ -3,7 +3,7 @@ public:
     vector<string> listt;
 
     void helper(string s, unordered_set<string>& words, int i,
-                vector<string> ans) {
+                vector<string>& ans) {
         if (i == s.size()) {
             string str = ans[0];
             for (int k = 1; k < ans.size(); k++) {
@@ -24,7 +24,8 @@ public:
 
     vector<string> wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> words(wordDict.begin(), wordDict.end());
-        helper(s, words, 0, {});
+        vector<string> str;
+        helper(s, words, 0,str);
         return listt;
     }
 };
