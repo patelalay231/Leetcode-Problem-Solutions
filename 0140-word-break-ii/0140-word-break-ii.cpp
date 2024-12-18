@@ -1,31 +1,34 @@
 class Solution {
 public:
-    vector<string> listt;
+    unordered_map<int, vector<string>> memo; // Memoization map
 
-    void helper(string s, unordered_set<string>& words, int i,
-                vector<string>& ans) {
-        if (i == s.size()) {
-            string str = ans[0];
-            for (int k = 1; k < ans.size(); k++) {
-                str += " " + ans[k];
-            }
-            listt.push_back(str);
-            return;
+    vector<string> helper(const string& s, const unordered_set<string>& words, int start) {
+        if (memo.count(start)) {
+            return memo[start]; // Return cached result if available
         }
-        for (int j = i; j < s.size(); j++) {
-            string substr = s.substr(i, j - i + 1);
-            if (words.find(substr) != words.end()) {
-                ans.push_back(substr);
-                helper(s, words, j + 1, ans);
-                ans.pop_back();
+
+        vector<string> result;
+        if (start == s.size()) {
+            result.push_back(""); // Base case: empty string for valid path
+            return result;
+        }
+
+        for (int end = start; end < s.size(); end++) {
+            string substr = s.substr(start, end - start + 1);
+            if (words.count(substr)) {
+                vector<string> sublist = helper(s, words, end + 1);
+                for (const string& sub : sublist) {
+                    result.push_back(substr + (sub.empty() ? "" : " ") + sub);
+                }
             }
         }
+
+        memo[start] = result; // Cache the result
+        return result;
     }
 
     vector<string> wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string> words(wordDict.begin(), wordDict.end());
-        vector<string> str;
-        helper(s, words, 0,str);
-        return listt;
+        return helper(s, words, 0);
     }
 };
