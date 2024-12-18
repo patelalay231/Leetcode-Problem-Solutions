@@ -28,6 +28,7 @@ Happy Coding! 🚀
 | [0091-decode-ways](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0132-palindrome-partitioning-ii) |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0171-excel-sheet-column-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
@@ -58,6 +59,7 @@ Happy Coding! 🚀
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0132-palindrome-partitioning-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0132-palindrome-partitioning-ii) |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0312-burst-balloons) |
@@ -100,6 +102,7 @@ Happy Coding! 🚀
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0238-product-of-array-except-self) |
@@ -161,6 +164,7 @@ Happy Coding! 🚀
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
@@ -194,6 +198,7 @@ Happy Coding! 🚀
 ## Trie
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1826-maximum-xor-with-an-element-from-array) |
@@ -300,6 +305,7 @@ Happy Coding! 🚀
 | ------- |
 | [0052-n-queens-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0078-subsets) |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -370,4 +376,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [1325-path-with-maximum-probability](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1325-path-with-maximum-probability) |
+## Memoization
+|  |
+| ------- |
+| [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 <!---LeetCode Topics End-->
