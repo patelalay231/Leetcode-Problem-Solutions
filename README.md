@@ -46,6 +46,7 @@ Happy Coding! 🚀
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
+| [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -76,6 +77,7 @@ Happy Coding! 🚀
 | [1402-count-square-submatrices-with-all-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
 ## Greedy
 |  |
 | ------- |
@@ -181,6 +183,7 @@ Happy Coding! 🚀
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
+| [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
 ## Two Pointers
 |  |
 | ------- |
@@ -271,6 +274,7 @@ Happy Coding! 🚀
 | ------- |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -391,4 +395,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
+## Enumeration
+|  |
+| ------- |
+| [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
 <!---LeetCode Topics End-->
