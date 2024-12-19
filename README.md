@@ -78,6 +78,7 @@ Happy Coding! 🚀
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [3638-minimum-operations-to-make-character-frequencies-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3638-minimum-operations-to-make-character-frequencies-equal) |
+| [3686-count-beautiful-splits-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3686-count-beautiful-splits-in-an-array) |
 ## Greedy
 |  |
 | ------- |
@@ -133,6 +134,7 @@ Happy Coding! 🚀
 | [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 | [2785-semi-ordered-permutation](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2785-semi-ordered-permutation) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
+| [3686-count-beautiful-splits-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3686-count-beautiful-splits-in-an-array) |
 ## Binary Search
 |  |
 | ------- |
