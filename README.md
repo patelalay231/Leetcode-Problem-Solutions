@@ -42,6 +42,7 @@ Happy Coding! 🚀
 | [1250-longest-common-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1508-longest-happy-prefix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1508-longest-happy-prefix) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 | [3533-snake-in-matrix](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/3533-snake-in-matrix) |
@@ -83,6 +84,7 @@ Happy Coding! 🚀
 | [0561-array-partition](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0561-array-partition) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
 ## Recursion
 |  |
@@ -158,6 +160,7 @@ Happy Coding! 🚀
 | [0719-find-k-th-smallest-pair-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 ## Hash Table
 |  |
 | ------- |
@@ -175,6 +178,7 @@ Happy Coding! 🚀
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [1129-longest-string-chain](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1129-longest-string-chain) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2445-reachable-nodes-with-restrictions](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2445-reachable-nodes-with-restrictions) |
 ## Two Pointers
