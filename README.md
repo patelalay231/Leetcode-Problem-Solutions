@@ -18,6 +18,7 @@ Happy Coding! 🚀
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0010-regular-expression-matching](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0010-regular-expression-matching) |
+| [0013-roman-to-integer](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0013-roman-to-integer) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0032-longest-valid-parentheses](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0038-count-and-say) |
@@ -145,6 +146,7 @@ Happy Coding! 🚀
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0013-roman-to-integer) |
 | [0060-permutation-sequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0060-permutation-sequence) |
 | [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
@@ -169,6 +171,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0013-roman-to-integer](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0013-roman-to-integer) |
 | [0030-substring-with-concatenation-of-all-words](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0030-substring-with-concatenation-of-all-words) |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
