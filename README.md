@@ -139,6 +139,7 @@ Happy Coding! 🚀
 ## Binary Search
 |  |
 | ------- |
+| [0069-sqrtx](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0300-longest-increasing-subsequence) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [1646-kth-missing-positive-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/1646-kth-missing-positive-number) |
@@ -148,6 +149,7 @@ Happy Coding! 🚀
 | ------- |
 | [0013-roman-to-integer](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0013-roman-to-integer) |
 | [0060-permutation-sequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0060-permutation-sequence) |
+| [0069-sqrtx](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0069-sqrtx) |
 | [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0171-excel-sheet-column-number) |
