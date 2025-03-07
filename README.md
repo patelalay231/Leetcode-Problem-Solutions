@@ -122,6 +122,7 @@ Happy Coding! 🚀
 | [0312-burst-balloons](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0485-max-consecutive-ones](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0485-max-consecutive-ones) |
 | [0525-contiguous-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0525-contiguous-array) |
 | [0561-array-partition](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0561-array-partition) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0673-number-of-longest-increasing-subsequence) |
