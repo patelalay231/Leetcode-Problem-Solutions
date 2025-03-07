@@ -100,6 +100,7 @@ Happy Coding! 🚀
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0036-valid-sudoku](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0036-valid-sudoku) |
 | [0041-first-missing-positive](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0049-group-anagrams) |
@@ -194,6 +195,7 @@ Happy Coding! 🚀
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
