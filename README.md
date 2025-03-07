@@ -112,6 +112,7 @@ Happy Coding! 🚀
 | [0140-word-break-ii](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0140-word-break-ii) |
 | [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0200-number-of-islands) |
 | [0238-product-of-array-except-self](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0283-move-zeroes) |
@@ -154,6 +155,7 @@ Happy Coding! 🚀
 | [0149-max-points-on-a-line](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0149-max-points-on-a-line) |
 | [0166-fraction-to-recurring-decimal](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0171-excel-sheet-column-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0171-excel-sheet-column-number) |
+| [0189-rotate-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
 | [0368-largest-divisible-subset](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0368-largest-divisible-subset) |
 | [2032-largest-odd-number-in-string](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/2032-largest-odd-number-in-string) |
@@ -196,6 +198,7 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0189-rotate-array](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/patelalay231/Leetcode-Problem-Solutions/tree/master/0295-find-median-from-data-stream) |
